@@ -1,0 +1,281 @@
+html {
+  font-family: 'Roboto','Noto Sans KR', sans-serif;
+  font-size: 17px;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding-top: 70px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hidden {
+  position: absolute;
+  left: -9999px;
+}
+
+.clearFix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  background: #fff;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 999;
+}
+
+header #logo {
+  position: absolute;
+  top: 13px;
+  left: 18%;
+}
+
+header #logo a img:nth-child(2) {
+  display: none;
+}
+
+header h2 {
+  display: none;
+}
+
+header #gnb {
+  width: 470px;
+  margin: 0 auto;
+}
+
+header #gnb .gnbList .gnbHeader {
+  display: none;
+}
+
+header #gnb .gnbList .tabList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  height: 70px;
+}
+
+header #gnb .gnbList .tabList.mobile {
+  display: none;
+}
+
+header #gnb .gnbList .tabList > li {
+  height: 70px;
+}
+
+header #gnb .gnbList .tabList > li .depth01 {
+  line-height: 70px;
+}
+
+header #gnb .gnbList .tabList > li .depth01 img {
+  display: none;
+}
+
+header #gnb .gnbList .tabList > li .depth02 {
+  background-color: #fff;
+}
+
+header #gnb .gnbList .tabList > li .depth02 li {
+  width: 100%;
+  text-align: center;
+}
+
+header #gnb .gnbList .tabList > li .depth02 li a {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+header #gnbBtn {
+  display: none;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 80px 0 50px;
+}
+
+footer .footerPc .footerTop {
+  padding: 0 20%;
+  position: relative;
+}
+
+footer .footerPc .footerTop .footerTopLeft {
+  float: left;
+}
+
+footer .footerPc .footerTop .footerTopLeft .operatingTime {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+footer .footerPc .footerTop .footerTopLeft .footerLogo {
+  display: inline-block;
+}
+
+footer .footerPc .footerTop .footerTopLeft .footerLogo img:nth-child(2) {
+  display: none;
+}
+
+footer .footerPc .footerTop .footerTopLeft .contactMobile {
+  display: none;
+}
+
+footer .footerPc .footerTop .footerTopLeft address {
+  line-height: 1.6em;
+  font-size: 14px;
+}
+
+footer .footerPc .footerTop .footerTopLeft address h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 55px 0 10px;
+}
+
+footer .footerPc .footerTop .footerTopLeft address span:nth-child(2)::after {
+  display: inline-block;
+  content: '';
+  vertical-align: middle;
+  width: 1px;
+  height: 16px;
+  background-color: #fff;
+  margin: 0 20px;
+}
+
+footer .footerPc .footerTop .footerTopLeft address br {
+  display: none;
+}
+
+footer .footerPc .footerTop .footerTopRight {
+  float: right;
+}
+
+footer .footerPc .footerTop .footerTopRight .contact h4 {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+footer .footerPc .footerTop .footerTopRight .contact .btns span {
+  display: inline-block;
+  text-align: center;
+  width: 143px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 20px 0 30px;
+  cursor: pointer;
+}
+
+footer .footerPc .footerTop .footerTopRight .contact .btns span img {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+footer .footerPc .footerTop .footerTopRight .contact .btns span:nth-child(2) {
+  margin-left: 7px;
+  font-size: 14px;
+  color: #3c1e1e;
+  background-color: #f9e000;
+}
+
+footer .footerPc .footerTop .footerTopRight .snsBtn ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .footerPc .footerTop .footerTopRight .snsBtn ul li {
+  margin-right: 10px;
+}
+
+footer .footerPc .footerTop .footerTopRight .snsBtn ul li a img {
+  width: 24px;
+}
+
+footer .footerPc .footerBottom {
+  padding: 30px 20% 80px;
+}
+
+footer .footerPc .footerBottom .transInfo {
+  line-height: 1.4em;
+}
+
+footer .footerPc .footerBottom .transInfo h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+footer .footerPc .footerBottom .transInfo .busInfo {
+  float: left;
+  width: 550px;
+}
+
+footer .footerPc .footerBottom .transInfo .subwayInfo {
+  float: right;
+  width: 400px;
+}
+
+footer .footerPc .footerBottom .transInfo table {
+  margin-top: 20px;
+}
+
+footer .footerPc .footerBottom .transInfo table tr td {
+  height: 50px;
+  font-size: 14px;
+}
+
+footer .footerPc .footerBottom .transInfo table tr td:nth-child(1) {
+  padding-right: 20px;
+}
+
+footer .footerPc .footerBottom .transInfo table tr td img {
+  margin-right: 7px;
+  vertical-align: middle;
+}
+
+footer .footerPc .footerBottom .transInfo table .transType {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+footer .footerPc .footerBottom .mapBox {
+  margin-top: 30px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+footer .footerPc .footerBottom .mapBox #map {
+  height: 280px;
+}
+
+footer .footerPc .footerBottom .addressInfo {
+  font-size: 12px;
+  word-wrap: keep-all;
+}
+/*# sourceMappingURL=layout.css.map */

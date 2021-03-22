@@ -1,0 +1,116 @@
+@media (max-width: 1200px) {
+  section .bannerBox img:nth-child(1) {
+    display: none;
+  }
+  section .bannerBox img:nth-child(2) {
+    display: inline;
+  }
+  section .inner {
+    width: 100%;
+    padding: 0 20px;
+  }
+  section .inner .contentInner {
+    padding: 0 0 113px;
+  }
+  section .inner .contentInner .classList {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 0;
+  }
+  section .inner .contentInner .classList li {
+    width: 100%;
+  }
+  section .inner .contentInner .classList li table tr {
+    font-size: 12px;
+  }
+  section .inner .contentInner .classList li table tr .secondCol {
+    width: 70px;
+  }
+  section .inner .contentInner .priceBox p {
+    font-size: 12px;
+    height: 50px;
+    line-height: 50px;
+  }
+  section .inner .contentInner .priceBox p span {
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  section .inner .contentInner .priceBox p b {
+    font-size: 15px;
+  }
+  section .inner .contentInner .introduceTeacher {
+    padding: 20px 0 15px;
+    margin-top: 10px;
+  }
+  section .inner .contentInner .introduceTeacher h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  section .inner .contentInner .introduceTeacher .teachersProfile {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  section .inner .contentInner .introduceTeacher .teachersProfile .teachersCareer {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid #d1d1d1;
+    padding-bottom: 20px;
+  }
+  section .inner .contentInner .introduceTeacher .teachersProfile .teachersCareer .imgBox {
+    width: 55px;
+  }
+  section .inner .contentInner .introduceTeacher .teachersProfile .teachersCareer .imgBox img {
+    width: 100%;
+  }
+  section .inner .contentInner .introduceTeacher .teachersProfile .teachersCareer h4 {
+    font-size: 14px;
+  }
+  section .inner .contentInner .introduceTeacher .teachersProfile .teachersCareer ul li {
+    font-size: 12px;
+  }
+  section .inner .contentInner .introduceTeacher .teachersProfile .teachersCareer ul li:nth-child(1) {
+    margin-bottom: 5px;
+  }
+  section .inner .contentInner .introduceTeacher .teachersProfile .eduCareer {
+    padding: 15px 0;
+  }
+  section .inner .contentInner .introduceTeacher .teachersProfile .eduCareer h5 {
+    font-size: 14px;
+  }
+  section .inner .contentInner .introduceTeacher .teachersProfile .eduCareer ul li {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  section .inner .contentInner .curriculum {
+    padding: 26px 0 20px;
+  }
+  section .inner .contentInner .curriculum.pc {
+    display: none;
+  }
+  section .inner .contentInner .curriculum.pc.portfolio {
+    display: block;
+  }
+  section .inner .contentInner .curriculum.pc.portfolio .portfolioCurriculumTable table tr td {
+    padding-left: 10px;
+  }
+  section .inner .contentInner .curriculum.pc.portfolio .portfolioCurriculumTable table tr td:nth-child(1) {
+    width: 80px;
+  }
+  section .inner .contentInner .curriculum.pc.portfolio .portfolioCurriculumTable table tr td:nth-child(2) {
+    width: 60px;
+  }
+  section .inner .contentInner .curriculum.mobile {
+    display: block;
+  }
+  section .inner .contentInner .btns a img:nth-child(1) {
+    display: none;
+  }
+  section .inner .contentInner .btns a img:nth-child(2) {
+    display: inline;
+  }
+}
+/*# sourceMappingURL=class_reponse.css.map */

@@ -1,0 +1,255 @@
+@media (max-width: 1600px) {
+  footer {
+    padding: 60px 0 25px;
+  }
+  footer .footerPc .footerTop {
+    padding: 0 20% 39px;
+  }
+  footer .footerPc .footerTop .footerTopLeft .footerLogo img:nth-child(1) {
+    display: none;
+  }
+  footer .footerPc .footerTop .footerTopLeft .footerLogo img:nth-child(2) {
+    display: inline;
+  }
+  footer .footerPc .footerTop .footerTopLeft address br {
+    display: inline;
+  }
+  footer .footerPc .footerTop .footerTopLeft address span:nth-child(2)::after {
+    display: none;
+  }
+  footer .footerPc .footerBottom {
+    padding: 0 20% 30px;
+  }
+  footer .footerPc .footerBottom .transInfo .busInfo {
+    float: none;
+    width: 100%;
+    padding-top: 28px;
+  }
+  footer .footerPc .footerBottom .transInfo .busInfo table {
+    margin-left: 20px;
+  }
+  footer .footerPc .footerBottom .transInfo .busInfo table td:nth-child(1) {
+    min-width: 100px;
+  }
+  footer .footerPc .footerBottom .transInfo .subwayInfo {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+  }
+  footer .footerPc .footerBottom .transInfo .subwayInfo table {
+    margin-left: 20px;
+  }
+  footer .footerPc .footerBottom .mapBox {
+    padding: 0 20px;
+  }
+  footer .footerPc .footerBottom .addressInfo {
+    padding: 0 20px;
+  }
+}
+
+@media (max-width: 1200px) {
+  body {
+    padding-top: 44px;
+  }
+  header {
+    height: 44px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    padding: 0 20px;
+    -webkit-transform: 0.5s;
+            transform: 0.5s;
+  }
+  header.gnbOn #logo {
+    visibility: hidden;
+  }
+  header #logo {
+    position: static;
+  }
+  header #logo a img {
+    width: 56px;
+    margin-bottom: 6px;
+  }
+  header h2 {
+    display: block;
+    position: absolute;
+    font-size: 16px;
+    font-weight: 500;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  header #gnb {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 0;
+    width: 100vw;
+    -webkit-transition-delay: 1s;
+            transition-delay: 1s;
+    z-index: 999;
+  }
+  header #gnb.on {
+    height: 100vh;
+    -webkit-transition-delay: 0s;
+            transition-delay: 0s;
+  }
+  header #gnb.on #gnbBg {
+    height: 100vh;
+  }
+  header #gnb.on .gnbList {
+    right: 0;
+    display: block;
+  }
+  header #gnb #gnbBg {
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+  }
+  header #gnb .gnbList {
+    position: fixed;
+    background-color: #fff;
+    width: 300px;
+    height: 100%;
+    display: none;
+    top: 0;
+    -webkit-transition: 0.5s ease;
+    transition: 0.5s ease;
+  }
+  header #gnb .gnbList .gnbHeader {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    padding: 0 13px 8px;
+    height: 44px;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 30px;
+  }
+  header #gnb .gnbList .gnbHeader .mobileLogo {
+    width: 56px;
+  }
+  header #gnb .gnbList .tabList {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  header #gnb .gnbList .tabList > li {
+    width: 100%;
+    padding-left: 20px;
+    height: 54px;
+    line-height: 54px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  header #gnb .gnbList .tabList > li:nth-child(1) {
+    padding-left: 50px;
+  }
+  header #gnb .gnbList .tabList > li .depth01 img {
+    height: 14px;
+    display: inline;
+    margin-right: 10px;
+  }
+  header #gnb .gnbList .tabList > li .depth02 {
+    display: none;
+  }
+  header #gnbBtn {
+    display: inline;
+    margin-bottom: 10px;
+  }
+  footer {
+    padding: 60px 0 25px;
+  }
+  footer .footerPc .footerTop {
+    padding: 0 20px 39px;
+    position: relative;
+  }
+  footer .footerPc .footerTop .footerTopLeft .contactMobile {
+    display: block;
+    margin-top: 30px;
+  }
+  footer .footerPc .footerTop .footerTopLeft .contactMobile .inner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  footer .footerPc .footerTop .footerTopLeft .contactMobile .inner .contactBtns:nth-child(1) {
+    margin-right: 10px;
+  }
+  footer .footerPc .footerTop .footerTopLeft .contactMobile .inner .contactBtns h5 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  footer .footerPc .footerTop .footerTopLeft .contactMobile .inner .contactBtns ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  footer .footerPc .footerTop .footerTopLeft .contactMobile .inner .contactBtns ul li {
+    padding-left: 10px;
+    font-size: 14px;
+    font-weight: 500;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #fff;
+    width: 143px;
+    height: 36px;
+    color: #000;
+    border-radius: 4px;
+    background-color: #fff;
+  }
+  footer .footerPc .footerTop .footerTopLeft .contactMobile .inner .contactBtns ul li img {
+    margin-right: 10px;
+  }
+  footer .footerPc .footerTop .footerTopLeft .contactMobile .inner .contactBtns ul li:nth-child(2) {
+    margin-left: 10px;
+    color: #3c1e1e;
+    font-size: 13px;
+    background-color: #f9e000;
+  }
+  footer .footerPc .footerTop .footerTopLeft .contactMobile .inner .contactBtns ul li:nth-child(2) img {
+    margin-right: 8px;
+  }
+  footer .footerPc .footerTop .footerTopRight .contact {
+    display: none;
+  }
+  footer .footerPc .footerTop .footerTopRight .snsBtn {
+    position: absolute;
+    top: 10;
+    right: 20px;
+  }
+  footer .footerPc .footerBottom {
+    padding: 0;
+  }
+  footer .footerPc .footerBottom .transInfo .busInfo {
+    padding: 28px 0;
+  }
+  footer .footerPc .footerBottom .transInfo .subwayInfo {
+    padding: 28px 0;
+    border-top: 1px solid #676767;
+  }
+}
+/*# sourceMappingURL=layout_response.css.map */

@@ -1,0 +1,275 @@
+@media (max-width: 1200px) {
+    .banner {
+        height: 189px;
+        background: url('../images/mobile/office/office_banner_mobile.png') no-repeat;
+        background-size: cover;
+        .titleBox {
+            font-size: 14px;
+            h2 {
+                font-size: 17px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    section {
+        &.section01 {
+            .titleBox {
+                font-size: 14px;
+                margin-bottom: 45px;
+                h2 {
+                    font-size: 17px;
+                    margin-top: 15px;
+                }
+            }
+            .content01 {
+                padding: 68px 120px;
+                img {
+                    width: 100%;
+                    // &:nth-child(2) {
+                    //     display: none;
+                    // }
+                    // &:nth-child(3) {
+                    //     display: inline;
+                    // }
+                }
+            }
+            .content02 {
+                padding : 68px 120px;
+                .titleBox {
+                    margin-bottom: 25px;
+                }
+                img {
+                    width: 100%;
+                    // &:nth-child(2) {
+                    //     display:none
+                    // }
+                    // &:nth-child(3) {
+                    //     display:inline;
+                    // }
+                }
+            }
+        }
+        
+        &.section03 {
+            padding: 80px 0 115px;
+            .inner {
+                width: 100%;
+                padding: 0 20px;
+                .titleBox {
+                    margin-bottom: 36px;
+                    font-size: 14px;
+                    line-height: 1.6em;
+                    h2 {
+                        font-size: 17px;
+                    }
+                    br {
+                        display: inline;
+                    }
+                }
+                .serviceIconList {
+                    ul {
+                        flex-wrap: wrap;
+                        padding: 20px 16px 0;
+                        li {
+                            font-size: 12px;
+                            width: 50%;
+                            margin-bottom: 20px;
+                            p {
+                                margin-top: 10px;
+                            }
+                            img {
+                                &:nth-child(1) {
+                                    display: none;
+                                }
+                                &:nth-child(2) {
+                                    display: inline;
+                                }
+                            }
+                        }
+                    }
+                }
+                .serviceList {
+                    ul {
+                        flex-wrap: wrap;
+                        li {
+                            width: 48%;
+                            font-size: 12px;
+                            margin-bottom: 15px;
+                            .imgBox {
+                                width: 100%;
+                                height: 95px;
+                                margin-bottom: 10px;
+                                img {
+                                    width: 100%;
+                                    height: auto;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .mobileBtns {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 217px;
+        background: url('../images/mobile/office/office_btns_banner.png') no-repeat center;
+        background-size: cover;
+        ul {
+            li {
+                &:nth-child(1) {
+                    margin-bottom: 5px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 600px) {
+    section {
+        &.section01 {
+            .content01 {
+                padding: 68px 20px;
+            }
+            .content02 {
+                padding: 68px 20px;
+            }
+        }
+        &.section02 {
+            .content01 {
+                .inner {
+                    width: 100%;
+                    padding: 75px 20px 90px;
+                    .officeList {
+                        flex-direction: column;
+                        ul {
+                            &:nth-child(1) {
+                                margin-bottom: 24px;
+                            }
+                            h3 {
+                                font-size: 14px;
+                            }
+                            li {
+                                .officeImg {
+                                    width: 100%;
+                                    overflow: hidden;
+                                }
+                                .officePrice {
+                                    h4 {
+                                        font-size: 14px;
+                                    }
+                                    table {
+                                        width: 150px;
+                                        tr {
+                                            font-size: 12px;
+                                            &.discount {
+                                                .discountPrice {
+                                                    font-size: 14px;
+                                                    span {
+                                                        font-size: 6px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .content02 {
+                padding: 80px 0 76px;
+                .inner {
+                    width: 100%;
+                    padding: 0 20px;
+                    .officeList {
+                        .imgList {
+                            li {
+                                width: 50%;
+                                height: 93px;
+                                img {
+                                    height: 100%;
+                                }
+                            }
+                        }
+                    }
+                    .priceInfo {
+                        flex-direction: column;
+                        border: none;
+                        box-shadow: 0 2px rgba(0, 0, 0, 0.06);
+                        .descBox {
+                            border-right: none;
+                            h3 {
+                                font-size: 14px;
+                            }
+                            p {
+                                font-size: 12px;
+                            }
+                        }
+                        .priceBox {
+                            .priceTable {
+                                &:nth-child(1) {
+                                    border-bottom: none;
+                                }
+                            }
+                            h4 {
+                                font-size: 14px;
+                                width: 40%;
+                            }
+                            table {
+                                tr {
+                                    font-size: 12px;
+                                    td {
+                                        &:nth-child(1) {
+                                            padding-right: 15px;
+                                        }
+                                        &:nth-child(2) {
+                                            b {
+                                                font-size: 14px;
+                                            }
+                                            span {
+                                                font-size: 6px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .fixedDeskInfo {
+                            width: 100%;
+                            margin-top: 10px;
+                            border: 1px solid #d1d1d1;
+                            
+                        }
+                        .freeDeskInfo {
+                            width: 100%;
+                            border: 1px solid #d1d1d1;
+                            box-shadow: 0 2px rgba(0, 0, 0, 0.06);
+                            .priceBox {
+                                border-right: none;
+                            }
+                        }
+                    }
+                }
+            }
+            .titleBox {
+                h2 {
+                    font-size: 17px;
+                }
+                span {
+                    font-size: 14px;
+                }
+                .tagList {
+                    li {
+                        font-size: 14px;
+                        width: 63px;
+                        height: 30px;
+                        line-height: 30px;
+                    }
+                }
+            }
+        }
+    }
+}

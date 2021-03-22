@@ -1,0 +1,27 @@
+@media(max-width:1400px) {
+    main {
+        section {
+            .inner {
+                h2 {
+                    font-size: 17px;
+                    margin-bottom: 20px;
+                    padding: 5px;
+                }
+                max-width: 700px;
+                width: 100%;
+                padding: 50px 20px;
+                .classList {
+                    li {
+                        width: 49%;
+                        h3 {
+                            font-size: 16px;
+                        }
+                        p {
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

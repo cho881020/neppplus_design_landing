@@ -1,0 +1,768 @@
+main.mobile {
+  display: none;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner ul li img {
+  width: 100%;
+}
+
+.banner ul li img:nth-child(2) {
+  display: none;
+}
+
+.banner .pagination {
+  position: absolute;
+  bottom: 43px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 50;
+}
+
+.banner .pagination .swiper-pagination-bullet {
+  margin-left: 25px;
+  background-color: transparent;
+  border: 1px solid #fff;
+}
+
+.banner .pagination .swiper-pagination-bullet:nth-child(1) {
+  margin-left: 0;
+}
+
+.banner .pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background-color: #fff;
+}
+
+.banner .btn {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 50;
+  cursor: pointer;
+}
+
+.banner .btn.btnPrev {
+  left: 150px;
+}
+
+.banner .btn.btnNext {
+  right: 150px;
+}
+
+.uncontactClass .content01 .inner {
+  text-align: center;
+  padding: 124px 0 122px;
+}
+
+.uncontactClass .content01 .inner .textBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 56px;
+}
+
+.uncontactClass .content01 .inner .textBox p {
+  margin: 0 16px 0 28px;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.6em;
+}
+
+.uncontactClass .content02 .inner {
+  padding: 86px 0 74px;
+  background: url("../images/academy/uncontact_banner_bg.png") no-repeat;
+  background-size: cover;
+}
+
+.uncontactClass .content02 .inner .mobile {
+  display: none;
+}
+
+.uncontactClass .content02 .inner p {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.6em;
+}
+
+.uncontactClass .content02 .inner p.emphasisText {
+  color: #ffdd00;
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 27px;
+}
+
+.uncontactClass .content02 .inner p.emphasisText span {
+  position: relative;
+}
+
+.uncontactClass .content02 .inner p.emphasisText span::before {
+  content: url("../images/academy/plus_icon.png");
+  position: absolute;
+  left: -20px;
+  top: -13px;
+}
+
+.uncontactClass .content02 .inner p.emphasisText b {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid #fff;
+  padding: 5px 10px;
+}
+
+.uncontactClass .content02 .inner p.emphasisText b:nth-child(2) {
+  margin-left: 20px;
+}
+
+.uncontactClass .content02 .inner p.emphasisText b:nth-child(3) {
+  margin: 8px;
+}
+
+.uncontactClass .content02 .inner p.emphasisText b:nth-child(4) {
+  margin-right: 20px;
+}
+
+.uncontactClass .content03 {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 65px 0;
+}
+
+.uncontactClass .content03 img:nth-child(2) {
+  display: none;
+}
+
+.titleBox {
+  text-align: center;
+}
+
+.titleBox h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.titleBox p {
+  font: 17px;
+  line-height: 1.6em;
+}
+
+.section01 .inner {
+  padding: 85px 0 170px;
+}
+
+.section01 .inner .titleBox {
+  margin-bottom: 83px;
+}
+
+.section01 .inner .imgBox {
+  padding-left: 30%;
+}
+
+.section01 .inner .imgBox.mobile {
+  display: none;
+}
+
+.section02 {
+  background: url("../images/academy/academy_section02_bg.png") no-repeat;
+  background-size: cover;
+  padding: 112px 0 137px;
+}
+
+.section02 .inner .titleBox {
+  color: #fff;
+  margin-bottom: 55px;
+}
+
+.section02 .inner .titleBox h2 b {
+  color: #ffdd00;
+  position: relative;
+}
+
+.section02 .inner .titleBox h2 b:before {
+  content: url("../images/plus_icon.png");
+  position: absolute;
+  top: -13px;
+  left: -16px;
+}
+
+.section02 .inner .titleBox h2 br {
+  display: none;
+}
+
+.section02 .inner .contentBox {
+  width: 954px;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 49px 35px 46px;
+}
+
+.section02 .inner .contentBox .contentTop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 14px;
+  line-height: 1.8em;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.section02 .inner .contentBox .contentTop .studentInfo {
+  border: 1px solid #d1d1d1;
+  margin-right: 35px;
+}
+
+.section02 .inner .contentBox .contentTop .studentInfo p {
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.6em;
+  padding: 10px 0;
+}
+
+.section02 .inner .contentBox .contentTop .studentInfo p b {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.section02 .inner .contentBox .contentTop .studentInfo .imgBox {
+  border-top: 1px solid #d1d1d1;
+  padding: 28px 22px;
+}
+
+.section02 .inner .contentBox .contentBottom {
+  padding-top: 30px;
+}
+
+.section02 .inner .contentBox .contentBottom .studentList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.section02 .inner .contentBox .contentBottom .studentList li {
+  text-align: center;
+  width: 124px;
+  border: 1px solid #d1d1d1;
+}
+
+.section02 .inner .contentBox .contentBottom .studentList li p {
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.6em;
+  padding: 10px 0;
+}
+
+.section02 .inner .contentBox .contentBottom .studentList li p b {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.section02 .inner .contentBox .contentBottom .studentList li .imgBox {
+  padding: 15px 0;
+  border-top: 1px solid #d1d1d1;
+}
+
+.section02 .inner .contentBox .contentBottom .studentList li .imgBox.mobile {
+  display: none;
+}
+
+.mobileClassList {
+  padding: 170px 0 180px;
+  width: 1344px;
+  margin: 0 auto;
+}
+
+.mobileClassList h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.mobileClassList .classList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.mobileClassList .classList li {
+  width: 435px;
+  margin-bottom: 70px;
+  margin-right: 17px;
+}
+
+.mobileClassList .classList li:nth-child(3) {
+  margin-right: 0;
+}
+
+.mobileClassList .classList li.android h3 {
+  color: #103fcc;
+  background-color: #d2e8fc;
+}
+
+.mobileClassList .classList li.frontEnd h3 {
+  color: #1d9b6e;
+  background-color: #c0eddc;
+}
+
+.mobileClassList .classList li.backEnd h3 {
+  color: #f0b400;
+  background-color: #fff2ba;
+}
+
+.mobileClassList .classList li.java h3 {
+  color: #fff;
+  background-color: #a079b2;
+}
+
+.mobileClassList .classList li.portfolio h3 {
+  color: #fff;
+  background-color: #8fa5e0;
+}
+
+.mobileClassList .classList li h3 {
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 8px;
+}
+
+.mobileClassList .classList li .imgBox {
+  margin-bottom: 8px;
+}
+
+.mobileClassList .classList li .imgBox img {
+  width: 100%;
+}
+
+.mobileClassList .classList li .imgBox a img:nth-child(2) {
+  display: none;
+}
+
+.mobileClassList .classList li span {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.mobileClassList .classList li p {
+  margin-top: 10px;
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+.section03 .inner {
+  padding: 130px 0 134px;
+}
+
+.section03 .inner .titleBox {
+  margin-bottom: 54px;
+}
+
+.section03 .inner .infoBox {
+  text-align: center;
+}
+
+.section03 .inner .infoBox img:nth-child(1) {
+  display: inline;
+}
+
+.section03 .inner .infoBox img:nth-child(2) {
+  display: none;
+}
+
+.section03 .inner .imgBox {
+  width: 1220px;
+  margin: 50px auto 0;
+  padding-left: 5px;
+  position: relative;
+}
+
+.section03 .inner .imgBox > img {
+  width: 100%;
+}
+
+.section03 .inner .imgBox .classList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 875px;
+  margin: 0 auto;
+  position: absolute;
+  top: 228px;
+  left: 155px;
+}
+
+.section03 .inner .imgBox .classList ul {
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.section03 .inner .imgBox .classList ul li {
+  width: 268px;
+  height: 172px;
+}
+
+.section03 .inner .imgBox .classList ul li:nth-child(2) {
+  margin-top: 412px;
+}
+
+.section03 .inner .imgBox .classList ul li a img {
+  width: 100%;
+}
+
+.section03 .inner .imgBox .classList ul li:hover a img {
+  opacity: 0;
+}
+
+.section03 .inner .imgBox .classList ul:nth-child(1) li:nth-child(2) {
+  margin: 113px 0 127px;
+}
+
+.section03 .inner .imgBox .classList ul:nth-child(2) {
+  margin-left: 83px;
+  margin-right: 85px;
+}
+
+.section04 {
+  background-color: #e9ebf1;
+  padding: 110px 0 158px;
+}
+
+.section04 .inner {
+  width: 1344px;
+  margin: 0 auto;
+}
+
+.section04 .inner .titleBox h2 {
+  margin-bottom: 80px;
+}
+
+.section04 .inner .imgBox img:nth-child(2) {
+  display: none;
+}
+
+.section04 .inner .contentInner {
+  padding: 0 128px 105px;
+  background-color: #fff;
+}
+
+.section04 .inner .contentInner .classList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 37px 0 20px;
+}
+
+.section04 .inner .contentInner .classList li {
+  width: 48.5%;
+}
+
+.section04 .inner .contentInner .classList li:nth-child(2) .priceBox {
+  background-color: #284097;
+}
+
+.section04 .inner .contentInner .classList li:nth-child(2) .priceBox span {
+  color: #b0bcea;
+}
+
+.section04 .inner .contentInner .classList li table {
+  width: 100%;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #d1d1d1;
+  margin-bottom: 20px;
+}
+
+.section04 .inner .contentInner .classList li table tr {
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.section04 .inner .contentInner .classList li table tr .classDay {
+  vertical-align: middle;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+.section04 .inner .contentInner .classList li table tr .secondCol {
+  width: 90px;
+  padding: 0 10px 0 10px;
+  color: #7f7f7f;
+}
+
+.section04 .inner .contentInner .classList li .priceBox {
+  height: 71px;
+  line-height: 71px;
+  font-size: 17px;
+  font-weight: 700;
+  text-align: center;
+  background-color: #00b5ac;
+  color: #fff;
+}
+
+.section04 .inner .contentInner .classList li .priceBox span {
+  font-size: 14px;
+  font-size: 500;
+  text-decoration: line-through;
+  margin-left: 20px;
+  color: #caeeed;
+}
+
+.section04 .inner .contentInner .classList li .priceBox b {
+  font-size: 22px;
+  margin-left: 10px;
+}
+
+.section04 .inner .contentInner .mobilePriceBox {
+  display: none;
+}
+
+.section04 .inner .contentInner .introduceTeacher {
+  padding: 30px 0 50px;
+  border-top: 1px solid #d1d1d1;
+  border-bottom: 1px solid #d1d1d1;
+}
+
+.section04 .inner .contentInner .introduceTeacher h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.section04 .inner .contentInner .introduceTeacher .teachersProfile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10px 0;
+}
+
+.section04 .inner .contentInner .introduceTeacher .teachersProfile .teachersCareer {
+  padding-top: 10px;
+  width: 50%;
+  border-right: 1px solid #d1d1d1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.section04 .inner .contentInner .introduceTeacher .teachersProfile .teachersCareer .imgBox {
+  margin-right: 20px;
+}
+
+.section04 .inner .contentInner .introduceTeacher .teachersProfile .teachersCareer .imgBox:nth-child(1) {
+  display: inline;
+}
+
+.section04 .inner .contentInner .introduceTeacher .teachersProfile .teachersCareer .imgBox:nth-child(2) {
+  display: none;
+}
+
+.section04 .inner .contentInner .introduceTeacher .teachersProfile .teachersCareer h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.section04 .inner .contentInner .introduceTeacher .teachersProfile .teachersCareer ul li {
+  font-size: 14px;
+}
+
+.section04 .inner .contentInner .introduceTeacher .teachersProfile .teachersCareer ul li:nth-child(1) {
+  margin-bottom: 15px;
+}
+
+.section04 .inner .contentInner .introduceTeacher .teachersProfile .eduCareer {
+  padding-left: 40px;
+}
+
+.section04 .inner .contentInner .introduceTeacher .teachersProfile .eduCareer h5 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.section04 .inner .contentInner .introduceTeacher .teachersProfile .eduCareer ul li {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.section04 .inner .contentInner .introduceTeacher .teachersProfile .eduCareer ul li:nth-child(3) {
+  margin-bottom: 0;
+}
+
+.section04 .inner .contentInner .curriculum {
+  padding: 40px 0;
+}
+
+.section04 .inner .contentInner .curriculum.mobile {
+  display: none;
+}
+
+.section04 .inner .contentInner .curriculum h3 {
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: underline;
+  margin-bottom: 20px;
+}
+
+.section04 .inner .contentInner .curriculum .curriculumTable {
+  padding-bottom: 30px;
+  border-bottom: 1px solid #000;
+}
+
+.section04 .inner .contentInner .curriculum .curriculumTable h4 {
+  font-weight: 700;
+  background-color: #f2f2f2;
+  padding: 10px 15px;
+}
+
+.section04 .inner .contentInner .curriculum .curriculumTable h4 b {
+  color: #dd2326;
+  margin-right: 15px;
+}
+
+.section04 .inner .contentInner .curriculum .curriculumTable table {
+  margin: 15px;
+}
+
+.section04 .inner .contentInner .curriculum .curriculumTable table tr td {
+  font-size: 14px;
+  font-weight: bold;
+  height: 20px;
+  line-height: 20px;
+}
+
+.section04 .inner .contentInner .curriculum .curriculumTable table tr td:nth-child(1) {
+  padding-right: 10px;
+}
+
+.section04 .inner .contentInner .curriculum .curriculumTable table tr td:nth-child(2) {
+  padding-right: 75px;
+}
+
+.section04 .inner .contentInner .curriculum .curriculumTable table tr td:nth-child(3) {
+  font-weight: 400;
+}
+
+.section04 .inner .contentInner .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section04 .inner .contentInner .btns a:nth-child(1) {
+  margin-right: 15px;
+}
+
+.section04 .inner .contentInner .btns.mobile {
+  display: none;
+}
+
+.section05 .inner {
+  padding: 130px 416px 202px;
+}
+
+.section05 .inner h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.section05 .inner ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.section05 .inner ul li {
+  width: 340px;
+  margin-bottom: 70px;
+}
+
+.section05 .inner ul li .imgBox {
+  height: 220px;
+  border: 1px solid #d1d1d1;
+}
+
+.section05 .inner ul li .titleBox {
+  padding: 10px 0;
+  text-align: left;
+}
+
+.section05 .inner ul li .titleBox h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 10px 0 15px;
+}
+
+.section05 .inner ul li .titleBox h4 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #9b9b9b;
+}
+
+.section05 .inner ul li .titleBox p {
+  font-size: 14px;
+  color: #4a4a4a;
+}
+
+.section05 .inner .btn {
+  text-align: center;
+}
+
+.onlineClass {
+  text-align: center;
+  padding: 129px 0 197px;
+}
+
+.onlineClass h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.onlineClass .imgBox {
+  margin-bottom: 50px;
+}
+
+.onlineClass .btnClass {
+  cursor: pointer;
+}
+/*# sourceMappingURL=academy.css.map */

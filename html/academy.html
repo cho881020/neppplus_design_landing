@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-188999388-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-188999388-1');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta data-n-head="1" data-hid="description" name="description" content="스타트업 개발자 구인, 앱/웹 개발 강의, 사무공간 확보와 팀빌딩까지 한번에 해결하세요">
+    <meta data-n-head="1" property="og:url" content="http://neppplus.kr">
+    <meta data-n-head="1" property="og:title" content="넵플러스 - IT아카데미 + 공유 오피스 + 앱/웹 개발. 종합 개발 솔루션">
+    <meta data-n-head="1" property="og:type" content="website">
+    <meta data-n-head="1s" property="og:image" content="../images/main/sns_img.jpeg">
+    <meta data-n-head="1" property="og:description" content="IT 아카데미, 디자인 아카데미, 공유오피스, 웹/앱 개발 문의. 다양한 IT강의, 아이패드 드로잉 강의를 경험해보세요.">
+    <title>넵플러스 IT아카데미</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+    <link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/layout_response.css">
+    <link rel="stylesheet" href="../css/academy.css">
+    <link rel="stylesheet" href="../css/academy_respose.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=119a5e3f55e106d09ee101302c37b036"></script>
+    <script src="../js/main.js" defer></script>
+    
+</head>
+<body>
+    <header id="header">
+        <h1 id="logo">
+            <a href="../index.html">
+                <img src="../images/logo.png" alt="">
+            </a>
+        </h1>
+        <h2>IT 아카데미</h2>
+        <nav id="gnb">
+            <div id="gnbBg"></div>
+            <div class="gnbList">
+                <div class="gnbHeader">
+                    <img src="../images/logo.png" alt="넵플러스 로고" class="mobileLogo">
+                    <span id="closeGnbBtn">
+                        <img src="../images/close_btn.png" alt="">
+                    </span>
+                </div>
+                <h2 class="hidden">glboal navigation</h2>
+                <ul class="tabList">             
+                    <li>
+                        <a href="http://nepp.kr" class="depth01">개발의뢰</a class="depth01">
+                    </li>
+                    <li>
+                        <a href="../html/academy.html" class="depth01">
+                            <img src="../images/mobile/main/gnb_academy_icon.png" alt="IT 아카데미 아이콘">
+                            IT 아카데미
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../html/design_academy.html" class="depth01">
+                            <img src="../images/design_academy_icon.png" alt="홈 아이콘" class="depth01">
+                            디자인 아카데미
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../html/office.html" class="depth01">
+                            <img src="../images/mobile/main/gnb_office_icon.png" alt="공유 오피스 아이콘">
+                            공유 오피스
+                        </a>
+                    </li>
+                    <li>
+                        <a href="../html/review.html" class="depth01">
+                            <img src="../images/mobile/main/gnb_review_icon.png" alt="수강후기 아이콘">
+                            수강후기
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <span id="gnbBtn" class="gnbBtn">
+            <img src="../images/gnb_btn.png" alt="">
+        </span>
+    </header>
+    <div class="banner swiper-container">
+        <ul class="swiper-wrapper">
+            <li class="swiper-slide">
+                <img src="../images/academy/banner01.jpeg" alt="메인배너 사진1">
+                <img src="../images/mobile/academy/academy_mobile_banner01.png" alt="메인배너 사진1">
+            </li>
+            <!-- <li class="swiper-slide">
+                <img src="../images/academy/banner02.png" alt="메인배너 사진2">
+                <img src="../images/mobile/academy/academy_mobile_banner02.png" alt="메인배너 사진2">
+            </li> -->
+        </ul>
+        <div class="pagination">
+        </div>
+        <!-- <span class="btn btnPrev">
+            <img src="../images/academy/btn_prev.png" alt="이전으로 버튼">
+        </span>
+        <span class="btn btnNext">
+            <img src="../images/academy/btn_next.png" alt="다음으로 버튼">
+        </span> -->
+    </div>
+    <section class="uncontactClass">
+        <div class="content01">
+            <div class="inner">
+                <div class="textBox">
+                    <div>
+                        <img src="../images/academy/uncontact_double_quotes_left.png" alt="큰 따옴표">
+                    </div>
+                    <p>
+                        물론 대면이 더 좋죠<br>
+                        집중력과 디테일은 현장 강의가 최고니까요
+                    </p>
+                    <div>
+                        <img src="../images/academy/uncotact_double_quotes_right.png" alt="큰 따옴표">
+                    </div>
+                </div>
+                <img src="../images/academy/uncontact_01.png" alt="질문사">
+            </div>
+        </div>
+        <div class="content02">
+            <div class="inner">
+                <p class="emphasisText pc">
+                    <span>넵플러스는</span> <b>방문 기록 작성</b> <b>체온 측정</b> <b>상시 소독</b> 을 통해
+                </p>
+                <p class="emphasisText mobile">
+                    <span>넵플러스는</span><br>
+                    <b>방문 기록 작성</b> <b>체온 측정</b> <b>상시 소독</b>
+                </p>
+                <p class="pc">
+                    코로나에 철저히 대응하고 있지만 그래도 불안하신<br>
+                    수강생분들을 위해 비대면 강의를 오픈합니다.
+                </p>
+                <p class="mobile">
+                     을 통해코로나에 철저히 대응하고 있지만 그래도 불안하신<br>
+                    수강생분들을 위해 비대면 강의를 오픈합니다.
+                </p>
+            </div>
+        </div>
+        <div class="content03">
+            <img src="../images/academy/uncontact_content03.png" alt="비대면 강의 진행방법">
+            <img src="../images/mobile/academy/uncontact_content03.png" alt="비대면 강의 진행방법">
+        </div>
+    </section>
+    <section class="mobileClassList">
+        <h2>단과 강의</h2>
+        <ul class="classList">
+            <li class="android">
+                <h3>안드로이드 LV 1</h3>
+                <div class="imgBox">
+                    <a href="../html/android_class.html">
+                        <img src="../images/academy/pc_class_thumb_android.png" alt="안드로이드 강의">
+                        <img src="../images/mobile/academy/class_thumb_android.png" alt="안드로이드 강의">
+                    </a>
+                </div>
+                <span>8주 완성</span>
+                <p>코린이도 나만의 앱을 만들어 볼 수 있어요. 꿀잼보장!</p>
+            </li>
+            <li class="frontEnd">
+                <h3>프론트엔드 LV 1</h3>
+                <div class="imgBox">
+                    <a href="../html/front_end_class.html">
+                        <img src="../images/academy/pc_class_thumb_front.png" alt="프론트엔드 강의">
+                        <img src="../images/mobile/academy/class_thumb_front.jpg" alt="프론트엔드 강의">
+                    </a>
+                </div>
+                <span>8주 완성</span>
+                <p>웹 건축학개론. 홈페이지 뼈대 만들고 디자인하고 동작까지.</p>
+            </li>
+            <li class="backEnd">
+                <h3>백엔드 LV 1</h3>
+                <div class="imgBox">
+                    <a href="../html/python_class.html">
+                        <img src="../images/academy/pc_class_thumb_python.png" alt="벡엔드 강의">
+                        <img src="../images/mobile/academy/class_thumb_back.jpg" alt="백엔드 강의">
+                    </a>
+                </div>
+                <span>8주 완성</span>
+                <p>더 이상 문송하지 않기! 코딩을 위한 개발자 두뇌 만들기! 수강 전과 후를 직접 비교해보세요.</p>
+            </li>
+            <li class="java">
+                <h3>프로그래밍 공통 LV 1.5</h3>
+                <div class="imgBox">
+                    <a href="../html/java_class.html">
+                        <img src="../images/academy/pc_class_thumb_java.png" alt="자바 강의">
+                        <img src="../images/mobile/academy/class_thumb_java.jpg" alt="자바 강의">
+                    </a>
+                </div>
+                <span>8주 완성</span>
+                <p>프로그래밍 근본! 입문도 이론 보강도 이 강의 하나로 OK. 어떤 개발자든 수강 필수!</p>
+            </li>
+            <li class="portfolio">
+                <h3>프로그래밍 공통 LV 2</h3>
+                <div class="imgBox">
+                    <a href="../html/portfolio_calss.html">
+                        <img src="../images/academy/pc_class_thumb_portfolio.png" alt="포트폴리오 강의">
+                        <img src="../images/mobile/academy/class_thumb_portfolio.png" alt="포트폴리오 강의">
+                    </a>
+                </div>
+                <span>8주 완성</span>
+                <p>프로그래밍 근본! 입문도 이론 보강도 이 강의 하나로 OK. 어떤 개발자든 수강 필수!</p>
+            </li>
+        </ul>
+    </section>
+    <section class="section03">
+        <div class="inner">
+            <div class="titleBox">
+                <h2>넵플러스 아카데미 로드맵</h2>
+                <p>
+                    지니가 코린이들을 위해 쉽게 설명해줄게요.<br>
+                    저만 따라오세요.
+                </p>
+            </div>
+            <div class="infoBox">
+                <img src="../images/academy/class_btn.png" alt="수강하러가기 버튼">
+                <!-- <img src="../images/mobile/academy/class_btn.png" alt=""> -->
+            </div>
+            <div class="imgBox">
+                <img src="../images/academy/section03_01.png" alt="로드맵">
+                <div class="classList">
+                    <ul>
+                        <li>
+                            <a href="../html/android_class.html">
+                                <img src="../images/academy/roadmap_hover_android.png" alt="로드맵 안드로이드">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="../html/java_class.html">
+                                <img src="../images/academy/roadmap_hover_java.png" alt="로드맵 java">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <img src="../images/academy/roadmap_hover_soon.png" alt="로드맵 coming soon">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="../html/front_end_class.html">
+                                <img src="../images/academy/roadmap_hover_front_end.png" alt="로드맵 프론트엔드">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <img src="../images/academy/roadmap_hover_soon.png" alt="로드맵 coming soon">
+                            </a>
+                        </li>
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="../html/python_class.html">
+                                <img src="../images/academy/roadmap_hover_python.png" alt="로드맵 파이썬">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);">
+                                <img src="../images/academy/roadmap_hover_soon.png" alt="로드맵 coming soon">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section04">
+        <div class="inner">
+            <div class="titleBox">
+                <h2>패키지 할인 강의</h2>
+            </div>
+            <div class="imgBox">
+                <img src="../images/academy/anroid_app_class.png" alt="안드로이드 앱 강의">
+                <img src="../images/mobile/academy/android_class_banner.png" alt="안드로이드 앱강의">
+            </div>
+            <div class="contentInner">
+                <ul class="classList">
+                    <li>
+                        <table>
+                            <tr>
+                                <td rowspan="3" class="classDay">[평일반]</td>
+                                <td class="secondCol">강의기간</td>
+                                <td>총 8주 과정</td>
+                            </tr>
+                            <tr>
+                                <td class="secondCol">강의시간</td>
+                                <td>월화 (19:30 ~ 22:00)</td>
+                            </tr>
+                            <tr>
+                                <td class="secondCol">강의구성</td>
+                                <td>3시간 x 주 2회</td>
+                            </tr>
+                        </table>
+                        <p class="priceBox">
+                            50% 패키지 할인 : <span>수강료 144만원</span> <b>월 180,000원</b>
+                        </p>
+                    </li>
+                    <li>
+                        <table>
+                            <tr>
+                                <td rowspan="3" class="classDay">[평일반]</td>
+                                <td class="secondCol">강의기간</td>
+                                <td>총 8주 과정</td>
+                            </tr>
+                            <tr>
+                                <td class="secondCol">강의시간</td>
+                                <td>월화 (19:30 ~ 22:00)</td>
+                            </tr>
+                            <tr>
+                                <td class="secondCol">강의구성</td>
+                                <td>3시간 x 주 2회</td>
+                            </tr>
+                        </table>
+                        <p class="priceBox">
+                            첫달 체험 후 수강 결정 : <span>수강료 144만원</span> <b>월 265,500원</b>
+                        </p>
+                    </li>
+                </ul>
+                <div class="mobilePriceBox">
+                    <ul>
+                        <li>
+                            <p>50% 패키지 할인: <span>수강료 144만원</span><b>월 180,000원</b></p>
+                        </li>
+                        <li>
+                            <p>첫달 체험 후 수강 결정: <span>수강료 144만원</span><b>월 265,500원</b></p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="introduceTeacher">
+                    <h3>강사 소개</h3>
+                    <div class="teachersProfile">
+                        <div class="teachersCareer">
+                            <div class="imgBox">
+                                <img src="../images/academy/teacher_icon.png" alt="지니 아이콘">
+                                <img src="../images/mobile/academy/genie_profile_icon.png" alt="지니 아이콘">
+                            </div>    
+                            <div>
+                                <h4>조경진 <span>강사</span></h4>
+                                <ul class="careerList">
+                                    <li>앱 개발업체 대표 (5년 이상)</li>
+                                    <li>서울시립대학교 전자전기컴퓨터공학부 석사졸</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="eduCareer">
+                            <h5>교육경력</h5>
+                            <ul>
+                                <li>- 방과 후 학교 자바 강의</li>
+                                <li>- C언어/소프트웨어 설계 실습 강의 조교 (2년 이상)</li>
+                                <li>- 더조은컴퓨터아카데미 자바/안드로이드 강사 (3년 이상)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="curriculum pc">
+                    <h3>CURRICULUM</h3>
+                    <div class="curriculumTable part01">
+                        <h4><b>Part1</b>JAVA로 프로그래밍 개념잡기</h4>
+                        <table>
+                            <tr>
+                                <td>1-1</td>
+                                <td>프로그램 로직만들기</td>
+                                <td>JAVA 입문 + 기본문법+프로그램 로직 작성</td>
+                            </tr>
+                            <tr>
+                                <td>1-2</td>
+                                <td>객체지향 개념</td>
+                                <td>로직만들기 + 객체지향개념 동시활용 연습</td>
+                            </tr>
+                            <tr>
+                                <td>1-3</td>
+                                <td>JAVA 종합 연습문제</td>
+                                <td>실무에 활용되는 위주로, 안드로이드를 위한 개념확립</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="curriculumTable part02">
+                        <h4><b>Part1</b>JAVA로 프로그래밍 개념잡기</h4>
+                        <table>
+                            <tr>
+                                <td>2-1</td>
+                                <td>안드로이드 입문</td>
+                                <td>JAVA 입문 + 기본문법+프로그램 로직 작성</td>
+                            </tr>
+                            <tr>
+                                <td>2-2</td>
+                                <td>제공기능 활용방법</td>
+                                <td>안드로이드 제공 기능 + 라이브러리 활용 기초</td>
+                            </tr>
+                            <tr>
+                                <td>2-3</td>
+                                <td>API 연동</td>
+                                <td>서버 통신 및 API 활용방법 기초</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="curriculum mobile">
+                    <h3>CURRICULUM</h3>
+                    <div class="curriculumTable part01">
+                        <h4><b>Part1</b>JAVA로 프로그래밍 개념잡기</h4>
+                        <ul>
+                            <li>
+                                <h5><span>1-1</span>프로그램 로직만들기</h5>
+                                <p>JAVA 입문 + 기본문법+프로그램 로직 작성</p>
+                            </li>
+                            <li>
+                                <h5><span>1-2</span>객체지향 개념</h5>
+                                <p>로직만들기 + 객체지향개념 동시활용 연습</p>
+                            </li>
+                            <li>
+                                <h5><span>1-3</span>JAVA 종합 연습문제</h5>
+                                <p>실무에 활용되는 위주로, 안드로이드를 위한 개념확립</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="curriculumTable part02">
+                        <h4><b>Part2</b>객체지향 개념</h4>
+                        <ul>
+                            <li>
+                                <h5><span>2-1</span>안드로이드 입문</h5>
+                                <p>JAVA 입문 + 기본문법+프로그램 로직 작성</p>
+                            </li>
+                            <li>
+                                <h5><span>2-2</span>제공기능 활용방법</h5>
+                                <p>안드로이드 제공 기능 + 라이브러리 활용 기초</p>
+                            </li>
+                            <li>
+                                <h5><span>2-3</span>API 연동</h5>
+                                <p>서버 통신 및 API 활용방법 기초</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="btns pc">
+                    <a href="../html/review.html"><img src="../images/academy/class_review_btn.png" alt="수강후기 보러가기 버튼"></a>
+                    <a href="#footer"><img src="../images/academy/contact_btn.png" alt="문의하기 버튼"></a>
+                </div>
+                <div class="btns mobile">
+                    <a href="../html/review.html"><img src="../images/mobile/academy/class_review_btn.png" alt="수강후기 보러가기 버튼"></a>
+                    <a href="#footer"><img src="../images/mobile/academy/contact_btn.png" alt="수강하러가기 버튼"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section01">
+        <div class="inner">
+            <div class="titleBox">
+                <h2>더 이상 문송하지마세요</h2>
+                <p>
+                    개발을 전혀 모르는 코린이들도 지니의 강의를 듣고<br>
+                    지니와 함께 개발자로 일하고 있어요
+                </p>
+            </div>
+            <div class="imgBox pc">
+                <img src="../images/academy/academy_section01.png" alt="">
+            </div>
+            <div class="imgBox mobile">
+                <img src="../images/mobile/academy/section01_02.png" alt="">
+                <img src="../images/mobile/academy/section01_01.png" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="section02">
+        <div class="inner">
+            <div class="titleBox">
+                <h2>
+                    <b>넵플러스 LAB</b> 에서 일하고<br> 있는 지니의 수강생들
+                </h2>
+            </div>
+            <div class="contentBox">
+                <div class="contentTop">
+                    <div class="studentInfo">
+                        <p>
+                            <b>강X현 (30)</b><br>
+                            행정학 전공
+                        </p>
+                        <div class="imgBox">
+                            <img src="../images/academy/ios_icon.png" alt="ios 아이콘">
+                        </div>
+                    </div>
+                    <div class="reviewBox">
+                        코딩에 ㅋ 자도 모르는 제가 조경진 쌤의 강의를 듣고 개발자의 삶을 살고 있습니다. 
+                        수많은 수강생들을 배출하셨기 때문에 비전공자인 제게 코딩을 접근하는 방법이나 이해가 되지않는 부분을 바로 캐치하시고 그 부분을 자세하게 설명해 주셔서 난이도 있는 작업도 처리할 수 있는 능력을 키워 주셨습니다. 
+                        특히나 이 강의를 선택하길 잘했다” 라고 생각이 드는 부분은 강의를 듣다 보면 문과생의 사고 방식에서 자연스럽게 이과생의 사고방식으로 전환된다는 거예요. 
+                        입문이라 하고 배려없이 진도만 나가는 강의도 많지만 조 쌤은 오히려 비전공자에 특화된 느낌이었어요. 매우매우 강추합니다.
+                    </div>
+                </div>
+                <div class="contentBottom">
+                    <ul class="studentList">
+                        <li>
+                            <p>
+                                <b>최X영 (25)</b><br>
+                                체육교육학 전공
+                            </p>
+                            <div class="imgBox pc">
+                                <img src="../images/academy/android_icon.png" alt="안드로이드 아이콘">
+                                <img src="../images/academy/react_icon.png" alt="react 아이콘">
+                            </div>
+                            <div class="imgBox mobile">
+                                <img src="../images/mobile/academy/android_icon.png" alt="안드로이드 아이콘">
+                                <img src="../images/mobile/academy/react_icon.png" alt="react 아이콘">
+                            </div>
+                        </li>
+                        <li>
+                            <p>
+                                <b>김X강 (37)</b><br>
+                                    호텔경영학 전공
+                            </p>
+                            <div class="imgBox pc">
+                                <img src="../images/academy/android_icon.png" alt="android 아이콘">
+                            </div>
+                            <div class="imgBox mobile">
+                                <img src="../images/mobile/academy/android_icon.png" alt="안드로이드 아이콘">
+                            </div>
+                        </li>
+                        <li>
+                            <p>
+                                <b>권X빈 (32)</b><br>
+                                경영학 전공
+                            </p>
+                            <div class="imgBox pc">
+                                <img src="../images/academy/python_icon.png" alt="python 아이콘">
+                            </div>
+                            <div class="imgBox mobile">
+                                <img src="../images/mobile/academy/python_icon.png" alt="안드로이드 아이콘">
+                            </div>
+                        </li>
+                        <li>
+                            <p>
+                                <b>이X현 (24)</b><br>
+                                경영학 전공
+                            </p>
+                            <div class="imgBox pc">
+                                <img src="../images/academy/nodeJs_icon.png" alt="Node Js 아이콘">
+                            </div>
+                            <div class="imgBox mobile">
+                                <img src="../images/mobile/academy/node_js_icon.png" alt="Node Js 아이콘">
+                            </div>
+                        </li>
+                        <li>
+                            <p>
+                                <b>박X현 (28)</b><br>
+                                물리학 전공
+                            </p>
+                            <div class="imgBox pc">
+                                <img src="../images/academy/react_icon.png" alt="react 아이콘">
+                            </div>
+                            <div class="imgBox mobile">
+                                <img src="../images/mobile/academy/react_icon.png" alt="react 아이콘">
+                            </div>
+                        </li>
+                        <li>
+                            <p>
+                                <b>유X리 (29)</b><br>
+                                실용음악 전공
+                            </p>
+                            <div class="imgBox pc">
+                                <img src="../images/academy/react_icon.png" alt="react 아이콘">
+                            </div>
+                            <div class="imgBox mobile">
+                                <img src="../images/mobile/academy/react_icon.png" alt="react 아이콘">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="onlineClass">
+        <h2>온라인 강의</h2>
+        <div class="imgBox">
+            <img src="../images/academy/online_class.png" alt="안드로이드 앱 강의">
+        </div>
+        <a href="https://class101.net/products/oU5yNXIHjzpmyJsyeIMI">
+            <img src="../images/academy/go_to_class_btn.png" alt="수강하러 가기">
+        </a>
+            
+    </section>
+
+    <!-- 임시 -->
+    <!-- <section class="section05">
+        <div class="inner">
+            <h2>수강생 작품</h2>
+            <ul>
+                <li>
+                    <a href="#">
+                        <div class="imgBox"></div>
+                        <div class="titleBox">
+                            <h4>홍길동</h4>
+                            <h3>집콕 취미 찾기</h3>
+                            <p>나 이거 좋아했네. 내 성향에 어울리는 취미유형 검사</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="imgBox"></div>
+                        <div class="titleBox">
+                            <h4>홍길동</h4>
+                            <h3>집콕 취미 찾기</h3>
+                            <p>나 이거 좋아했네. 내 성향에 어울리는 취미유형 검사</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="imgBox"></div>
+                        <div class="titleBox">
+                            <h4>홍길동</h4>
+                            <h3>집콕 취미 찾기</h3>
+                            <p>나 이거 좋아했네. 내 성향에 어울리는 취미유형 검사</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="imgBox"></div>
+                        <div class="titleBox">
+                            <h4>홍길동</h4>
+                            <h3>집콕 취미 찾기</h3>
+                            <p>나 이거 좋아했네. 내 성향에 어울리는 취미유형 검사</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="imgBox"></div>
+                        <div class="titleBox">
+                            <h4>홍길동</h4>
+                            <h3>집콕 취미 찾기</h3>
+                            <p>나 이거 좋아했네. 내 성향에 어울리는 취미유형 검사</p>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="imgBox"></div>
+                        <div class="titleBox">
+                            <h4>홍길동</h4>
+                            <h3>집콕 취미 찾기</h3>
+                            <p>나 이거 좋아했네. 내 성향에 어울리는 취미유형 검사</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+            <div class="btn">
+                <a href="#">
+                    <img src="../images/academy/more_btn.png" alt="수강생 후기 더보기 버튼">
+                </a>
+            </div>
+        </div>
+    </section> -->
+    <footer id="footer">    
+        <div class="footerPc">
+            <div class="footerTop clearFix">
+                <div class="footerTopLeft">
+                    <a href="/index.html" class="footerLogo">
+                        <img src="../images/main/footer_logo.png" alt="">
+                        <img src="../images/mobile/main/logo_mobile.png" alt="">
+                    </a>
+                    <div class="contactMobile">
+                        <div class="inner">
+                            <div class="contactBtns">
+                                <h5>IT 아카데미 / 디자인 아카데미 / 공유오피스</h5>
+                                <ul>
+                                    <li><a href="tel:02-2088-0729"><img src="../images/mobile/main/call_icon.png" alt="전화 아이콘"> 02-2088-0729</a></li>
+                                    <li class="kakaotalkAcademyBtn"><img src="../images/mobile/main/kakao_icon.png" alt="카카오톡 아이콘"> 카카오톡문의하기</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="operatingTime">상담 운영 시간 : 09:30 ~ 17:30</p>
+                    <address>
+                        <h4>찾아오시는 길</h4>
+                        <span>서울시 동대문구 용두동 100-5번지, 2층 (지번)</span><br>
+                        <span>서울시 동대문구 왕산로 92, 2층 (도로명)</span>
+                    </address>
+                </div>
+                <div class="footerTopRight">
+                    <ul class="contact">
+                        <li>
+                            <h4>IT 아카데미 / 디자인 아카데미 / 공유오피스</h4>
+                            <div class="btns">
+                                <span class="number ">
+                                    <a href="tel:02-2088-0739">
+                                        <img src="../images/main/call_icon.png" alt="">
+                                        02-2088-0739
+                                    </a>
+                                </span> 
+                                <span class="kakaoChat kakaotalkAcademyBtn">
+                                    <img src="../images/main/kakao_icon.png" alt="">
+                                    카카오톡 문의
+                                </span>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="snsBtn">
+                        <ul>
+                            <li>
+                                <a href="https://blog.naver.com/neppplus"><img src="../images/naver_blog_icon.png" alt=""></a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/neppplus_design/"><img src="../images/instagram.png" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footerBottom">
+                <div class="transInfo clearFix">
+                    <div class="busInfo">
+                        <table>
+                            <tr>
+                                <td colspan="2" class="transType">버스</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="../images/main/bus_icon_01.png" alt="간선버스 아이콘">
+                                    간선버스
+                                </td>
+                                <td>
+                     
+                                    제기동역, 서울약령시장 하차 (105,147,201,202,241,260,261,262,270),<br>
+                                    제기역약령시장 하차(421)
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="../images/main/bus_icon_02.png" alt="지선버스 아이콘">
+                                    지선버스
+                                </td>
+                                <td>
+                                    
+                                    제기동역, 서울약령시장 하차 (2221,2233),<br> 제기역약령시장 하차 (2115)
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="../images/main/bus_icon_03.png" alt="">
+                                    직행버스
+                                </td>
+                                <td>제기역약령시장 하차 (3200)</td>
+                            </tr>
+                        </table>
+                    </div>
+                    
+                    <div class="subwayInfo">
+                        <table>
+                            <tr>
+                                <td colspan="2" class="transType">지하철</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="/images/main/subway_icon_01.png" alt="1호선 아이콘">
+                                    1호선 제기동역 6번 출구
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="/images/main/subway_icon_02.png" alt="2호선 아이콘">
+                                    2호선 용두역 2번 출구
+                                </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <img src="../images/main/subway_icon_01.png" alt="1호선 아이콘">
+                                    <img src="../images/main/subway_icon_02.png" alt="2호선 아이콘">
+                                    <img src="../images/main/subway_icon_03.png" alt="우이신설 아이콘">
+                                    1호선/2호선/우이신설 신설동역 4번 출구
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="mapBox">
+                    <div id="map">
+                        지도 자리
+                    </div>
+                </div>
+                <p class="addressInfo">
+                    Tel. 02-2088-0739 (공유오피스), 02-2088-0729 (IT아카데미)  | 대표자 : 배상구 | 주소: 서울 동대문구 왕산로 92 2층 ㅣ사업장등록번호 : 433-88-01852 ㅣ Copyright ⓒ NePPPlus
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

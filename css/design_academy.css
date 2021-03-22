@@ -1,0 +1,61 @@
+main section .inner {
+  padding: 100px 0;
+  width: 1400px;
+  margin: 0 auto;
+}
+
+main section .inner h2 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  padding: 10px;
+  color: #fff;
+}
+
+main section .inner h2.digitalDrawing {
+  background-color: #ffe453;
+}
+
+main section .inner h2.academy3d {
+  background-color: #53bffe;
+}
+
+main section .inner .classList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+main section .inner .classList li {
+  width: 24%;
+  margin-right: 1%;
+  margin-bottom: 10px;
+}
+
+main section .inner .classList li .imgBox {
+  width: 100%;
+}
+
+main section .inner .classList li .imgBox img {
+  width: 100%;
+}
+
+main section .inner .classList li h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 5px 0 3px;
+}
+
+main section .inner .classList li h4 {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+main section .inner .classList li p {
+  font-size: 16px;
+  font-weight: 500;
+}
+/*# sourceMappingURL=design_academy.css.map */

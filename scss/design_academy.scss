@@ -1,0 +1,52 @@
+main {
+    section {
+        .inner {
+            padding: 100px 0;
+            width: 1400px;
+            margin: 0 auto;
+            h2 {
+                font-size: 24px;
+                font-weight: 700;
+                margin-bottom: 50px;
+                padding: 10px;
+                color: #fff;
+                &.digitalDrawing {
+                    background-color: #ffe453;
+                }
+                &.academy3d {
+                    background-color: #53bffe;
+                }
+            }
+            .classList {
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+                li {
+                    width: 24%;
+                    margin-right: 1%;
+                    margin-bottom: 10px;
+                    .imgBox {
+                        width: 100%;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    h3 {
+                        font-size: 20px;
+                        font-weight: 700;
+                        margin: 5px 0 3px;
+                    }
+                    h4 {
+                        font-size: 12px;
+                        margin-bottom: 10px;
+                    }
+                    p {
+                        font-size: 16px;
+                        font-weight: 500;
+                    }
+                }
+            }
+        }
+    }
+    
+}

@@ -1,0 +1,279 @@
+html {
+    font-family: 'Roboto','Noto Sans KR', sans-serif;
+    font-size: 17px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    padding-top:70px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.hidden {
+    position : absolute;
+    left : -9999px;
+}
+
+.clearFix::after {
+    content: '';
+    display: block;
+    clear: both
+}
+
+header {
+    position: fixed;
+    // &.fixed {
+    //     position: fixed;
+    // }
+    width: 100%;
+    background : #fff;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 999;
+    #logo {
+        position : absolute;
+        top: 13px;
+        left : 18%;
+        a {
+            img{
+                &:nth-child(2) {
+                    display: none;
+                }
+            }
+        }
+    }
+    h2 {
+        display: none;
+    }
+    #gnb {
+        width : 470px;
+        margin : 0 auto;
+        .gnbList {
+            .gnbHeader {
+                display: none;
+            }
+            .tabList {
+                display : flex;
+                justify-content : space-between;
+                flex-direction: row;
+                // align-items: center;
+                height : 70px;
+                &.mobile {
+                    display: none;
+                }
+                > li {
+                    height: 70px;
+                    .depth01 {
+                        line-height: 70px;
+                        img {
+                            display: none;
+                        }
+                    }
+                    .depth02 {
+                        background-color: #fff;
+                        li {
+                            width: 100%;
+                            text-align: center;
+                            a {
+                                display: inline-block;
+                                padding: 10px 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    #gnbBtn {
+        display: none;
+    }
+}
+
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding : 80px 0 50px;
+    .footerPc {
+        .footerTop {
+            padding : 0 20%;
+            position: relative;
+            // border-bottom: 1px solid #676767;
+            .footerTopLeft {
+                float: left;
+                .operatingTime {
+                    margin-top: 10px;
+                    font-size: 14px;
+                }
+                .footerLogo {
+                    display: inline-block;
+                    img {
+                        &:nth-child(2) {
+                            display: none;
+                        }
+                    }
+                }
+                .contactMobile {
+                    display: none;
+                }
+                address {
+                    // margin-top: 20px;
+                    line-height: 1.6em;
+                    font-size: 14px;
+                    h4 {
+                        font-size: 20px;
+                        font-weight: 700;
+                        margin : 55px 0 10px;
+                    }   
+                    span:nth-child(2) {
+                        &::after {
+                            display: inline-block;
+                            content: '';
+                            vertical-align: middle;
+                            width: 1px;
+                            height: 16px;
+                            background-color: #fff;
+                            margin: 0 20px;
+                        }
+                    }
+                    br {
+                        display: none;
+                    }
+                }
+            }
+            .footerTopRight {
+                float:right;
+                .contact {
+                    h4 {
+                        font-size: 15px;
+                        font-weight: 700;
+                    }
+                    .btns {
+                        span {
+                            display: inline-block;
+                            text-align: center;
+                            width: 143px;
+                            height: 36px;
+                            line-height: 36px;
+                            font-size: 14px;
+                            font-weight: 500;
+                            color: #000;
+                            background-color: #fff;
+                            border-radius: 4px;
+                            margin: 20px 0 30px;
+                            cursor: pointer;
+                            img {
+                                margin-right: 5px;
+                                vertical-align: middle;
+                            }
+                            &:nth-child(2) {
+                                margin-left: 7px;
+                                font-size: 14px;
+                                color: #3c1e1e;
+                                background-color: #f9e000;
+                            }
+                        }
+                    }
+                }
+                .snsBtn {
+                    ul {
+                        display: flex;
+                        li {
+                            margin-right: 10px;
+                            a {
+                                img {
+                                    width: 24px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .footerBottom {
+            padding : 30px 20% 80px;
+            .transInfo {
+                line-height: 1.4em;
+                h4 {
+                    font-size: 20px;
+                    font-weight: 700;
+                }
+                .busInfo {
+                    float: left;
+                    width: 550px;
+                }
+                .subwayInfo {
+                    float: right;
+                    width: 400px;
+                    // margin-right: 120px;
+                }
+                table {
+                    margin-top: 20px;
+                    // width: ;
+                    tr {
+                        td{
+                            height: 50px;
+                            font-size: 14px;
+                            &:nth-child(1){
+                                padding-right: 20px;
+                            }
+                            img {
+                                margin-right: 7px;
+                                vertical-align: middle;
+                            }
+                        }
+                    }
+                    .transType {
+                        font-size: 20px;
+                        font-weight: 700;
+                    }
+                }
+            }
+            .mapBox {
+                // display: flex;
+                // justify-content: center;
+                // align-items: center;
+                // color: #000;
+                margin-top: 30px;
+                width: 100%;
+                // background-color: #fff;
+                margin-bottom: 20px;
+                
+                #map {
+                    height: 280px;
+                }
+            }
+            .addressInfo {
+                font-size: 12px;
+                word-wrap: keep-all;
+             }
+        }
+    }
+}
+// @media(min-width:1200px) {
+//     header {
+//         #gnb {
+//             .gnbList {
+//                 .tabList {
+//                     li {
+//                         overflow: hidden;
+//                         &:hover {
+//                             overflow: visible;
+//                             .depth01 {
+//                                 background-color: rgba(0, 0, 0, 0.06);
+//                             }
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }

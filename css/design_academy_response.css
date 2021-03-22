@@ -1,0 +1,22 @@
+@media (max-width: 1400px) {
+  main section .inner {
+    max-width: 700px;
+    width: 100%;
+    padding: 50px 20px;
+  }
+  main section .inner h2 {
+    font-size: 17px;
+    margin-bottom: 20px;
+    padding: 5px;
+  }
+  main section .inner .classList li {
+    width: 49%;
+  }
+  main section .inner .classList li h3 {
+    font-size: 16px;
+  }
+  main section .inner .classList li p {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=design_academy_response.css.map */

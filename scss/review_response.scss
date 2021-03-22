@@ -1,0 +1,360 @@
+@media (max-width:1200px) {
+    .section {
+        &.section01 {
+            .banner01 {
+                height: 190px;
+                background: url('../images/mobile/review/section01_banner_bg.png') no-repeat center;
+                background-size: cover;
+                .inner {
+                    .contentText {
+                        width: 280px;
+                        line-height: 1.1em;
+                        p {
+                            font-size: 12px;
+                            font-weight: 500;
+                        }
+                        .emphasisText {
+                            margin-top: 15px;
+                        }
+                    }
+                }
+            }
+            .content01 {
+                .inner {
+                    height: 590px;
+                    .contentText {
+                        width: 250px;
+                        word-break: keep-all;
+                        margin-top: 40px;
+                        font-size: 14px;
+                        p {
+                            &:nth-child(1) {
+                                margin-bottom: 20px;
+                            }
+                        }
+                    }
+                    .contentImg {
+                        margin-top: 27px;
+                        img {
+                            width: 70%;
+                        }
+                    }
+                    .cardGif {
+                        img {
+                            width: 197px;
+                        }
+                    }
+                    .background {
+                        width: 100%;
+                        margin-top: 0;
+                        background: url('../images/mobile/review/section01_content01_bg.png') no-repeat center bottom;
+                        background-size: contain;
+                    }
+                }
+            }
+            .content02 {
+                .inner {
+                    margin: 61px 0 68px;
+                    padding: 0 20px;
+                    .contentTitle {
+                        text-align: center;
+                        img {
+                            margin-bottom: 13px;
+                        }
+                        h2 {
+                            float: none;
+                            font-size: 17px;
+                        }
+                        img {
+                            float: none;
+                        }
+                    }
+                    .contentList {
+                        margin-top: 26px;
+                        li {
+                            padding: 26px 18px 36px;
+                            height: 100%;
+                            &:nth-child(2n) {
+                                .contentImg {
+                                    float: none;
+                                    text-align: left;
+                                }
+                            }
+                            .contentImg {
+                                float: none;
+                                display: flex;
+                                align-items: center;
+                                margin-bottom: 20px;
+                                h3 {
+                                    // float: right;
+                                    font-size: 16px;
+                                    br {
+                                        display: none;
+                                    }
+                                }
+                                img {
+                                    position: static;
+                                    // float: left;
+                                    margin-right: 10px;
+                                    &:nth-child(1) {
+                                        display: inline;
+                                    }
+                                    &:nth-child(3) {
+                                        display: none;
+                                    }
+                                }
+                            }
+                            .contentText {
+                                width: 100%;
+                                float: none;
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                }
+            }
+            .content03 {
+                padding: 79px 0 67px;
+                .inner {
+                    padding: 0 20px;
+                    .contentTitle {
+                        text-align: center;
+                        img {
+                            float: none;
+                            margin-bottom: 13px;
+                        }
+                        h2 {
+                            float: none;
+                            font-size: 17px;
+                        }
+                    }
+                    .contentList {
+                        flex-direction: column;
+                        li {
+                            width: 100%;
+                            height: 100%;
+                            padding: 18px 18px 28px;
+                            &:nth-child(1) {
+                                margin-bottom: 34px;
+                            }
+                            h3 {
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        &.section02 {
+            .banner02 {
+                height: 196px;
+                background: url('../images/mobile/review/section02_banner02_bg_mobile.png') no-repeat center;
+                background-size: cover;
+                font-size: 14px;
+            }
+            .content01 {
+                padding: 47px 0 69px;
+                .inner {
+                    padding: 0 20px;
+                    .contentTop {
+                        .contentText {
+                            text-align: center;
+                            float: none;
+                            width: 100%;
+                            h2 {
+                                line-height: 1.2em;
+                                b {
+                                    font-size: 17px;
+                                }
+                                span{
+                                    font-size: 14px;
+                                    &::before {
+                                        top: -15px;
+                                        left: -15px;
+                                    }
+                                }
+                            }
+                            p {
+                                font-size: 14px;
+                            }
+                        }
+                    }
+                    .contentBottom {
+                        .contentListLeft {
+                            height: 100%;
+                            display: block;
+                            float: none;
+                            width: 100%;
+                            li {
+                                margin-bottom: 11px;
+                                font-size: 13px;
+                            }
+                        }
+                        .contentListRight {
+                            height: 100%;
+                            width: 100%;
+                            display: block;
+                            li {
+                                margin-bottom: 11px;
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                }
+            }
+            .content02 {
+                padding: 47px 0 69px;
+                .inner {
+                    padding: 0 20px;
+                    .contentTitle {
+                        .titleText {
+                            text-align: center;
+                            float: none;
+                            width: 100%;
+                            h2 {
+                                line-height: 1.2em;
+                                b {
+                                    font-size: 17px;
+                                }
+                                span{
+                                    font-size: 14px;
+                                    &::before {
+                                        top: -15px;
+                                        left: -15px;
+                                    }
+                                }
+                            }
+                            p {
+                                margin-top: 30px;
+                                font-size: 14px;
+                                word-break: keep-all;
+                            }
+                        }
+                        .titleImg {
+                            display: none;
+                        }
+                    }
+                    .contentBottom {
+                        .contentListLeft {
+                            display: block;
+                            float: none;
+                            height: 100%;
+                            width: 100%;
+                            li {
+                                margin-bottom: 11px;
+                            }
+                        }
+                        .contentListRight {
+                            height: 100%;
+                            width: 100%;
+                            display: block;
+                            // margin-top: 11px;
+                            li {
+                                margin-bottom: 11px;
+                            }
+                        }
+                    }
+                }
+            }
+            .content03 {
+                padding: 70px 20px 75px;
+                .contentTitle {
+                    h2 {
+                        font-size: 17px;
+                        &::after {
+                            display: none;
+                        }
+                        p {
+                            top: -20px;
+                            left: 140px;
+                            span {
+                                width: 6px;
+                                height: 6px;
+                                margin: 0 3px;
+                            }
+                        }
+                    }
+                    img {
+                        display: inline;
+                    }
+                }
+                .contentList {
+                    margin-top: 20px;
+                    &::after {
+                        content: url('../images/double_quotes_right_mobile.png');
+                        position: absolute;
+                        top: -10px;
+                        right: 15px;
+                    }
+                    &::before {
+                        display: none;
+                    }
+                    li {
+                        padding: 40px 16px;
+                        flex-direction: column;
+                        &:nth-child(1) {
+                            margin-bottom: 10px;
+                        }
+                        .contentImg {
+                            // display: block;
+                            flex-direction: row;
+                            justify-content: flex-start;
+                            align-items: center;
+                            margin-bottom: 20px;
+                            h3 {
+                                br {
+                                    display: none;
+                                }
+                            }
+                            .imgBox {
+                                &.mobile {
+                                    display: block;
+                                    margin-right: 10px;
+                                }
+                                &.pc {
+                                    display: none;
+                                }
+                            }
+                            img {
+                                &:nth-child(3) {
+                                    display: none; 
+                                }
+                            }
+                        }
+                        p {
+                            font-size: 13px;
+                        }
+                    }
+                }
+                .emphasisText {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 16px;
+                    line-height: 1.6em;
+                    br {
+                        display: inline;
+                    }
+                }
+            }
+            .banner03 {
+                background: url('../images/mobile/review/banner03_bg.png') no-repeat center;
+                background-size: cover;
+                .pcBtn {
+                    display: none;
+                }
+                .mobileBtn {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    a {
+                        &:nth-child(1) {
+                            margin-bottom: 3px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
